@@ -1,4 +1,4 @@
-# Spark vs. Ray: The Data Engineering Duel (DA3408 A3)
+# Spark vs. Ray: (DA3408 Assignment3)
 
 The same NYC Yellow Taxi cleaning pipeline (20 Parquet files, 2025-01 to 2026-08, 57,068,386 clean rows) in PySpark and Ray Data, each on a 2-worker cluster.
 
