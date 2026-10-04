@@ -1,0 +1,26 @@
+[1] Row count   spark=57,068,386  ray=57,068,386  -> PASS
+[2] Columns     spark=17 ray=17 common=17  -> PASS
+[3] Per-column nulls/min/max
+    DOLocationID             PASS
+    PULocationID             PASS
+    VendorID                 PASS
+    avg_speed_mph            PASS
+    dropoff_borough          PASS
+    dropoff_zone             PASS
+    duration_sec             PASS
+    fare_amount              PASS
+    passenger_count          PASS
+    pickup_borough           PASS
+    pickup_date              PASS
+    pickup_hour              PASS
+    pickup_zone              PASS
+    total_amount             PASS
+    tpep_dropoff_datetime    PASS
+    tpep_pickup_datetime     PASS
+    trip_distance            PASS
+[4] Whole-row checksum (order independent) ...
+    spark=(57068386, 526362313234000694607215609)
+    ray  =(57068386, 526362313234000694607215609)
+    -> PASS
+
+OVERALL: PASS - outputs match exactly  (70.6 s)
